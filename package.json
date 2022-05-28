@@ -1,0 +1,25 @@
+{
+  "name": "nhp",
+  "version": "1.0.0",
+  "description": "NHP Project for Airbus",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/install.js",
+    "stop": "npm uninstall -g"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bin": {
+    "nhp": "./bin/index.js",
+    "nhp-check": "./bin/index.js"
+  },
+  "author": "Mayur Tantwar",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.2",
+    "nhp": "github:mayurs-code/framework-CLI",
+    "pkg": "^5.7.0",
+    "yargs": "^17.5.1"
+  }
+}
